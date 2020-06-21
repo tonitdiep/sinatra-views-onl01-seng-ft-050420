@@ -3,6 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
 	get '/' do
+	  #don't need html put into index.erb
 		erb :index
 	end
   
